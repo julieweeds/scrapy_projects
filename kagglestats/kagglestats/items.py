@@ -14,4 +14,7 @@ class KagglestatsItem(scrapy.Item):
     link = scrapy.Field()
     desc = scrapy.Field()
     popularity = scrapy.Field()
+    filename=scrapy.Field()
+
+
 
